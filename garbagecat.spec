@@ -43,3 +43,5 @@ install -p -D -m 0755 %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/garbagecat
 %{_libdir}/garbagecat/garbagecat-%{version}.jar
 %{_bindir}/garbagecat
 %doc README.md
+
+%changelog
