@@ -1,7 +1,7 @@
 Summary:	 Parses Java garbage collection logging and provides analysis to support JVM tuning and troubleshooting for OpenJDK and Sun/Oracle JDK.
 Name:        garbagecat
 Version:     2.0.5
-Release:     1
+Release:     2
 License:     EPL
 Group:       Development/Tools
 Url:         http://mgm3746.github.io/garbagecat/
@@ -45,3 +45,6 @@ install -p -D -m 0755 %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/garbagecat
 %doc README.md
 
 %changelog
+* Fri Mar 24 2017 Robert Bost 2.0.5-2
+- Add changelog section (bostrt@gmail.com)
+
