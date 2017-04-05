@@ -35,12 +35,12 @@ mvn clean assembly:assembly -DskipTests=true
 %install
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT%{_libdir}/garbagecat/
-cp target/garbagecat-%{version}.jar $RPM_BUILD_ROOT%{_libdir}/garbagecat/
+cp target/garbagecat-%{version}.jar $RPM_BUILD_ROOT%{_libdir}/garbagecat/garbagecat.jar
 install -p -D -m 0755 %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/garbagecat
 
 %files
 %defattr(-,root,root)
-%{_libdir}/garbagecat/garbagecat-%{version}.jar
+%{_libdir}/garbagecat/garbagecat.jar
 %{_bindir}/garbagecat
 %doc README.md
 

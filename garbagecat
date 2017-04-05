@@ -1,2 +1,2 @@
 #!/bin/sh
-java -jar /usr/lib64/garbagecat/garbagecat-2.0.5.jar $@
+java -jar /usr/lib64/garbagecat/garbagecat.jar $@
