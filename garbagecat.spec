@@ -45,6 +45,12 @@ install -p -D -m 0755 %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/garbagecat
 %doc README.md
 
 %changelog
+* Wed Apr 05 2017 Robert Bost <bostrt@gmail.com> 2.0.7-1
+- Version bump. Source update. (bostrt@gmail.com)
+- Automatic commit of package [garbagecat] release [2.0.6-1].
+  (bostrt@gmail.com)
+- Add build status badge. (bostrt@gmail.com)
+
 * Tue Apr 04 2017 Robert Bost 2.0.6-1
 - Version bump. Source update. Slight change in upstream tagging.
 
