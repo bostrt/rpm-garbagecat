@@ -45,5 +45,8 @@ install -p -D -m 0755 %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/garbagecat
 %doc README.md
 
 %changelog
+* Tue Apr 04 2017 Robert Bost 2.0.6-1
+- Version bump. Source update. Slight change in upstream tagging.
+
 * Fri Mar 24 2017 Robert Bost 2.0.5-2
 - Add changelog section (bostrt@gmail.com)
