@@ -45,6 +45,9 @@ install -p -D -m 0755 %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/garbagecat
 %doc README.md
 
 %changelog
+* Thu Apr 20 2017 Robert Bost <bostrt@gmail.com> 2.0.8-1
+- Version bump. Source update (bostrt@gmail.com)
+
 * Wed Apr 05 2017 Robert Bost <bostrt@gmail.com> 2.0.7-2
 - Removed version from .jar. Fixed garbagecat script. (bostrt@gmail.com)
 
