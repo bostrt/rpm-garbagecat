@@ -1,6 +1,6 @@
 Summary:	 Parses Java garbage collection logging and provides analysis to support JVM tuning and troubleshooting for OpenJDK and Sun/Oracle JDK.
 Name:        garbagecat
-Version:     2.0.9
+Version:     2.0.10
 Release:     1
 License:     EPL
 Group:       Development/Tools
@@ -17,13 +17,13 @@ BuildRequires: maven
 Requires: java-1.8.0-openjdk-headless
 
 %description
-Parses Java garbage collection logging and provides analysis to support JVM 
-tuning and troubleshooting for OpenJDK and Sun/Oracle JDK. It differs from 
-other tools in that it goes beyond the simple math of calculating statistics 
-such as maximum pause time and throughput. It adds context to these numbers by 
-identifying the associated collector or collector phase, which allows for much 
-deeper insight and analysis. This is especially relevant to collectors such as 
-the Concurrent Mark Sweep collector that have multiple concurrent and 
+Parses Java garbage collection logging and provides analysis to support JVM
+tuning and troubleshooting for OpenJDK and Sun/Oracle JDK. It differs from
+other tools in that it goes beyond the simple math of calculating statistics
+such as maximum pause time and throughput. It adds context to these numbers by
+identifying the associated collector or collector phase, which allows for much
+deeper insight and analysis. This is especially relevant to collectors such as
+the Concurrent Mark Sweep collector that have multiple concurrent and
 stop-the-world phases.
 
 %prep
