@@ -45,6 +45,9 @@ install -p -D -m 0755 %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/garbagecat
 %doc README.md
 
 %changelog
+* Fri Jun 23 2017 Robert Bost <bostrt@gmail.com> 2.0.11-1
+- Version bump. Source update. (bostrt@gmail.com)
+
 * Wed Jun 07 2017 Robert Bost <bostrt@gmail.com> 2.0.10-1
 - Version bump. Source update. (bostrt@gmail.com)
 
