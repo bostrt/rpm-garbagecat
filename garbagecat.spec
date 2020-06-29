@@ -45,6 +45,9 @@ install -p -D -m 0755 %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/garbagecat
 %doc README.md
 
 %changelog
+* Mon Jun 29 2020 Robert Bost <rbost@redhat.com> 3.0.4-1
+- Version bump. Source update (rbost@redhat.com)
+
 * Wed Feb 19 2020 Robert Bost <bostrt@gmail.com> 3.0.3-1
 - Version bump. Source update. (bostrt@gmail.com)
 
