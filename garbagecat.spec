@@ -1,6 +1,6 @@
 Summary:	 Parses Java garbage collection logging and provides analysis to support JVM tuning and troubleshooting for OpenJDK and Sun/Oracle JDK.
 Name:        garbagecat
-Version:     3.0.5
+Version:     4.0.0
 Release:     1
 License:     EPL
 Group:       Development/Tools
